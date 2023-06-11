@@ -3,6 +3,12 @@
 ## Defi Deep Dive
 
 
+1. Block chain is node(equal PCs) to node share de-detabase
+2. For example, P2P (Like a bitTorrent)
+3. Block-chain is connect(chain) to block.
+4. Block chain attack example 51% attack
+
+
 ### Part 1 - Block-chain onBoard
 
 1. Start of blockChain
@@ -10,6 +16,17 @@
 3. About Block and Transaction
 4. Verificate 
 
+#### Bitcoin
+
+1. Most usually BlockChain
+2. Development Satoshi
+
+#### Ethereum
+
+1. Smart-Contract
+2. Development Vitalik burterin
+3. ETH 통신(transaction) / 수수료(gasFee)
+4. EVM(Ethereum Virtual Machine)
 
 ### Part 2 - DeFi
 
