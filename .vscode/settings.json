@@ -3,5 +3,6 @@
         "activityBar.background": "#3F1A60",
         "titleBar.activeBackground": "#582587",
         "titleBar.activeForeground": "#FDFCFE"
-    }
+    },
+    "solidity.compileUsingRemoteVersion": "v0.6.6+commit.6c089d02"
 }
