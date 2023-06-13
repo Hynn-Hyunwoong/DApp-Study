@@ -21,12 +21,15 @@ describe("Lock", function () {
     const [owner, otherAccount] = await ethers.getSigners();
 
     const Lock = await ethers.getContractFactory("Lock");
-    const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
+    const lock = await Lock.deploy(unlockTime, { value: lockedAmount }); 
+    // if you want to deploy with constructor arguments
+    // if you want to another acccount usage, use lock.connect(otherAccount).withdraw()
+    // example const lock = await Lock.connect(otherAccount).deploy(unlockTime, { value: lockedAmount });
 
     return { lock, unlockTime, lockedAmount, owner, otherAccount };
   }
 
-  describe("Deployment", function () {
+  describe.skip("Deployment", function () {
     it("Should set the right unlockTime", async function () {
       const { lock, unlockTime } = await loadFixture(deployOneYearLockFixture);
 

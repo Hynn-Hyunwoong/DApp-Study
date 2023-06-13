@@ -11,12 +11,12 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat:{
       forking : {
-        url : "https://ethereum.mainnet-rpc.allthatnode.com",
+        url : "https://bsc-dataseed1.binance.org/",
         // blockNumber : 13100000
       },
       accounts:{
-        mnemonic : "test test test...it's only",
-        accountsBalance : "100000000000000000000000"
+        mnemonic : "test test test test test test test test test test test junk",
+        accountsBalance : "100000000000000000000000" // 10 ** 23 
       }
     },
     ethereum : {

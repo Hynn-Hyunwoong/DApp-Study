@@ -114,5 +114,15 @@ export default config;
 ```
 
 
+4. Contract Test
+
+- 무결성 검증
+- 비용 절약 
+- 시나리오별 테스트
+
+### Step
+1. Contract Setting for Deploy
+2. Write Script
+3. Launch to Script
 
 # Toturial Contract depoly & test
